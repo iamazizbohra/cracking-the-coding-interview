@@ -60,3 +60,8 @@ Output: "Mr%20John%20Smith"
 ```text
 mvn test
 ```
+
+#### JACOCO Report
+```text
+file:///[path to project folder]/target/site/jacoco/index.html
+```
