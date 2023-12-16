@@ -10,7 +10,7 @@
 
 Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
-#### How Unicode Works (ASCII vs Unicode)
+#### (ASCII vs Unicode)
 [How Unicode Works](https://deliciousbrains.com/how-unicode-works)
 
 #### Solutions
