@@ -14,12 +14,11 @@ class SolutionTests {
 		String str = "Mr John Smith   ";
 
 		// when
-		char[] arr = str.toCharArray();
 		Solution obj = new Solution();
-		String expectedString = obj.replaceSpaces(arr);
+		String expectedValue = obj.replaceSpaces(str.toCharArray());
 
 		// then
-		assertThat(expectedString).isEqualTo("Mr%20John%20Smith");
+		assertThat(expectedValue).isEqualTo("Mr%20John%20Smith");
 	}
 
 }
