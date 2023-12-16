@@ -22,7 +22,7 @@ These solutions are not as optimal in some respects, but might be better dependi
 
 #### Optimal Solutions
 
-1. [Solution1.java](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution1.java)
-2. [Solution2.java](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution2.java)
+1. [Solution using boolean array](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution1.java)
+2. [Solution using bit vector](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution2.java)
 
 ---
