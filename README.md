@@ -3,12 +3,15 @@
 
 ---
 
+### Arrays and Strings
+
+
 ### 1.1 Is Unique
 
 Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 ### How Unicode Works (ASCII vs Unicode)
-(How Unicode Works)[https://deliciousbrains.com/how-unicode-works/]
+[How Unicode Works](https://deliciousbrains.com/how-unicode-works)
 
 ### Solutions
 If we can't use additional data structures, we can do the following:
@@ -19,7 +22,7 @@ These solutions are not as optimal in some respects, but might be better dependi
 
 ### Optimal Solutions
 
-1. Solution1.java
-2. Solution2.java
+1. [Solution1.java](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution1.java)
+2. [Solution2.java](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution2.java)
 
 ---
