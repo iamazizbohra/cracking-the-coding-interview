@@ -27,7 +27,7 @@ These solutions are not as optimal in some respects, but might be better dependi
 
 ---
 
-#### 1.2 1.2 Check Permutation
+#### 1.2 Check Permutation
 
 Given two strings, write a method to decide if one is a permutation of the other.
 
