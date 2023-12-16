@@ -9,7 +9,7 @@ public class Solution1Tests {
 
 	@Test
 	@DisplayName("Strings with same chars test")
-	public void givenTwoString_whenCheckPermutation_thenReturnTrue() {
+	public void givenTwoStrings_whenCheckPermutation_thenReturnTrue() {
 		// given
 		String s = "abdc";
 		String t = "dcba";
@@ -24,10 +24,25 @@ public class Solution1Tests {
 
 	@Test
 	@DisplayName("Strings with different chars test")
-	public void givenTwoString_whenCheckPermutation_thenReturnFalse() {
+	public void givenTwoStrings_whenCheckPermutation_thenReturnFalse() {
 		// given
 		String s = "qdrt";
 		String t = "trvd";
+
+		// when
+		Solution1 obj = new Solution1();
+		boolean expectedValue = obj.checkPermutation(s, t);
+
+		// then
+		assertThat(expectedValue).isFalse();
+	}
+
+	@Test
+	@DisplayName("Strings with unequal length test")
+	public void givenTwoStringsWithUnequalLength_whenCheckPermutation_thenReturnFalse() {
+		// given
+		String s = "abdcz";
+		String t = "dcba";
 
 		// when
 		Solution1 obj = new Solution1();

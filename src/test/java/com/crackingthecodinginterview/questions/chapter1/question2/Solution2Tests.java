@@ -37,4 +37,19 @@ public class Solution2Tests {
 		assertThat(expectedValue).isFalse();
 	}
 
+	@Test
+	@DisplayName("Strings with unequal length test")
+	public void givenTwoStringsWithUnequalLength_whenCheckPermutation_thenReturnFalse() {
+		// given
+		String s = "abdcz";
+		String t = "dcba";
+
+		// when
+		Solution2 obj = new Solution2();
+		boolean expectedValue = obj.checkPermutation(s, t);
+
+		// then
+		assertThat(expectedValue).isFalse();
+	}
+
 }

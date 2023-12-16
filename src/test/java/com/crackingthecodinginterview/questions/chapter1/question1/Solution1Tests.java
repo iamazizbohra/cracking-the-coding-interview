@@ -35,4 +35,18 @@ public class Solution1Tests {
 		assertThat(expectedValue).isFalse();
 	}
 
+	@Test
+	@DisplayName("String with more than 128 chars test")
+	public void givenLongString_whenIsUniqueChars_thenReturnFalse() {
+		// given
+		String string = "PPYSKGKoojqMVhLt1ErVYN3cx1juTEhxIernMcpD5wvBR3lrSAESkMTLJObpjr25UewIMPSML6jc3ZO7jvaYACAkj1alrGIK03tuQG9ueyakycOd0JLSf1XdvOt6JZswCW";
+
+		// when
+		Solution1 obj = new Solution1();
+		boolean expectedValue = obj.isUniqueChars(string);
+
+		// then
+		assertThat(expectedValue).isFalse();
+	}
+
 }

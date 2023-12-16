@@ -38,3 +38,11 @@ Given two strings, write a method to decide if one is a permutation of the other
 #### Optimal Solutions
 
 1. [Solution using integer array](src/main/java/com/crackingthecodinginterview/questions/chapter1/question2/Solution2.java)
+
+---
+
+#### Run Tests
+
+```text
+mvn test
+```
