@@ -14,8 +14,8 @@ public class Solution2Tests {
 		String string = "abcd";
 
 		// when
-		Solution2 solution1 = new Solution2();
-		boolean expectedValue = solution1.isUniqueChars(string);
+		Solution2 obj = new Solution2();
+		boolean expectedValue = obj.isUniqueChars(string);
 
 		// then
 		assertThat(expectedValue).isTrue();
@@ -28,8 +28,8 @@ public class Solution2Tests {
 		String string = "abba";
 
 		// when
-		Solution2 solution1 = new Solution2();
-		boolean expectedValue = solution1.isUniqueChars(string);
+		Solution2 obj = new Solution2();
+		boolean expectedValue = obj.isUniqueChars(string);
 
 		// then
 		assertThat(expectedValue).isFalse();

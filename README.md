@@ -26,3 +26,15 @@ These solutions are not as optimal in some respects, but might be better dependi
 2. [Solution using bit vector](src/main/java/com/crackingthecodinginterview/questions/chapter1/question1/Solution2.java)
 
 ---
+
+#### 1.2 1.2 Check Permutation
+
+Given two strings, write a method to decide if one is a permutation of the other.
+
+#### Solutions
+
+1. [Solution using sorting](src/main/java/com/crackingthecodinginterview/questions/chapter1/question2/Solution1.java)
+
+#### Optimal Solutions
+
+1. [Solution using integer array](src/main/java/com/crackingthecodinginterview/questions/chapter1/question2/Solution2.java)
