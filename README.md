@@ -55,6 +55,20 @@ Output: "Mr%20John%20Smith"
 
 ---
 
+#### 1.4 Palindrome Permutation
+
+Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
+
+**EXAMPLE** <br>
+Input: Tact Coa <br>
+Output: true (permutations: "taco cat", "atc o eta" etc.)
+
+#### Optimal Solutions
+
+1. [Solution using bit vector](src/main/java/com/crackingthecodinginterview/questions/chapter1/question4/Solution.java)
+
+---
+
 #### Run Tests
 
 ```text
