@@ -69,6 +69,22 @@ Output: true (permutations: "taco cat", "atc o eta" etc.)
 
 ---
 
+#### 1.5 One Away 
+
+There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+
+**EXAMPLE** <br>
+pale,  ple  -> true
+pales, pale -> true 
+pale,  bale -> true 
+pale,  bae  -> false
+
+#### Optimal Solutions
+
+1. [Solution](src/main/java/com/crackingthecodinginterview/questions/chapter1/question5/Solution.java)
+
+---
+
 #### Run Tests
 
 ```text
