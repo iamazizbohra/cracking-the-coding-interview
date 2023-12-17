@@ -25,7 +25,7 @@ public class SolutionTests {
 	@DisplayName("Check if it is a permutation of non palindrome test")
 	public void givenString_whenIsPermutationOfPalindrome_thenReturnFalse() {
 		// given
-		String str = "coat";
+		String str = "tact coat";
 
 		// when
 		Solution obj = new Solution();
