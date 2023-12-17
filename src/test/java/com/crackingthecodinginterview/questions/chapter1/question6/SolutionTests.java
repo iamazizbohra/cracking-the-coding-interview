@@ -1,4 +1,4 @@
-package com.crackingthecodinginterview.questions.chapter1.question5;
+package com.crackingthecodinginterview.questions.chapter1.question6;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,16 +12,15 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class SolutionTests {
 
 	@ParameterizedTest
-	@DisplayName("One edit away test")
+	@DisplayName("String compression test")
 	@MethodSource("methodSourceArgsFactory")
-	public void givenString_whenOneEditAway_thenReturnValue(String first, String second, boolean expectedValue) {
+	public void givenString_whenCompress_thenReturnValue(String first, String expectedValue) {
 		// given
 		String s1 = first;
-		String s2 = second;
 
 		// when
 		Solution obj = new Solution();
-		boolean actualValue = obj.oneEditAway(s1, s2);
+		String actualValue = obj.compress(s1);
 
 		// then
 		assertThat(actualValue).isEqualTo(expectedValue);
@@ -29,12 +28,8 @@ public class SolutionTests {
 
 	private static Stream<Arguments> methodSourceArgsFactory() {
 		return Stream.of(
-				Arguments.of("pale", "bale", true), // replace
-				Arguments.of("pale", "pales", true), // insert
-				Arguments.of("pales", "pale", true), // remove
-				Arguments.of("pale", "pabc", false), // two miss match chars
-				Arguments.of("pale", "palexy", false) // two edit away
-		);
+				Arguments.of("aabcccccaaa", "a2b1c5a3"),
+				Arguments.of("abcde", "abcde"));
 	}
 
 }
