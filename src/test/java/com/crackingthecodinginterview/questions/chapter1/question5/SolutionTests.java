@@ -29,10 +29,12 @@ public class SolutionTests {
 
 	private static Stream<Arguments> methodSourceArgsFactory() {
 		return Stream.of(
-				Arguments.of("pale", "ple", true),
-				Arguments.of("pales", "pale", true),
-				Arguments.of("pale", "bale", true),
-				Arguments.of("pale", "bae", false));
+				Arguments.of("pale", "bale", true), // replace
+				Arguments.of("pale", "pales", true), // insert
+				Arguments.of("pales", "pale", true), // remove
+				Arguments.of("pale", "pabc", false), // two miss match chars
+				Arguments.of("pale", "palexy", false) // two edit away
+		);
 	}
 
 }
