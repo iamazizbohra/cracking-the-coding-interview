@@ -5,11 +5,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class SolutionTests {
+public class SolutionTests {
 
 	@Test
 	@DisplayName("Replace spaces in a string test")
-	void givenString_whenReplaceSpaces_thenReturnVoid() {
+	public void givenString_whenReplaceSpaces_thenReturnVoid() {
 		// given
 		String str = "Mr John Smith   ";
 
