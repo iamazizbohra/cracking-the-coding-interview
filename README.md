@@ -98,6 +98,15 @@ Implement a method to perform basic string compression using the counts of repea
 
 ---
 
+#### 1.7 Rotate Matrix 
+
+Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+
+#### Optimal Solutions
+
+1. [Solution using layer approach](src/main/java/com/crackingthecodinginterview/questions/chapter1/question7/Solution.java)
+___
+
 #### Run Tests
 
 ```text
