@@ -105,7 +105,18 @@ Given an image represented by an NxN matrix, where each pixel in the image is 4 
 #### Optimal Solutions
 
 1. [Solution using layer approach](src/main/java/com/crackingthecodinginterview/questions/chapter1/question7/Solution.java)
-___
+
+---
+
+#### 1.8 Zero Matrix
+
+Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
+
+#### Optimal Solutions
+
+1. [Solution](src/main/java/com/crackingthecodinginterview/questions/chapter1/question8/Solution.java)
+
+---
 
 #### Run Tests
 
